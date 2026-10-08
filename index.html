@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#b9f6ff">
+  <title>★ おでかけルーレット ★</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <div class="browser-strip">☆・゜* Welcome to my homepage *゜・☆</div>
+    <header>
+      <div class="mini-nav"><span class="sparkle">★ NEW ★</span> <span>Since 1999...♡</span> <span class="sparkle">★ ようこそ ★</span></div>
+      <div class="hero-title"><span class="dolphin" aria-hidden="true">🐬</span><h1>おでかけ<br class="mobile-only">ルーレット</h1><span class="dolphin dolphin-right" aria-hidden="true">🐬</span></div>
+      <p class="ascii">☆.。.:*・°☆.。.:*・°☆</p>
+      <div class="marquee" aria-label="行き先はルーレットにおまかせ！"><div class="marquee-inner">ようこそ！　☆　きょうの運命を決めちゃおう　☆　WELCOME !!　☆　どこに行こうかな？　☆　</div></div>
+      <div class="visitor"><span>あなたは</span> <strong aria-label="サンプルのアクセスカウンター">001234</strong> <span>人目のおきゃくさまです♪</span></div>
+    </header>
+
+    <main>
+      <div class="divider-stars" aria-hidden="true">✦　✿　✦　✿　✦　✿　✦</div>
+      <section class="roulette-grid" aria-label="おでかけルーレット">
+        <div class="retro-panel blue-panel">
+          <div class="panel-bar">★ PLACE.EXE <span>□ ×</span></div>
+          <div class="panel-content">
+            <p class="small-label">01 ☆ どこへいく？</p>
+            <div class="reel" aria-live="off"><span id="place">高円寺</span></div>
+            <p class="panel-foot">☆ 地名ルーレット ☆</p>
+          </div>
+        </div>
+        <div class="big-x" aria-hidden="true">×</div>
+        <div class="retro-panel pink-panel">
+          <div class="panel-bar">♥ ACTION.EXE <span>□ ×</span></div>
+          <div class="panel-content">
+            <p class="small-label">02 ♡ なにをする？</p>
+            <div class="reel" aria-live="off"><span id="action">カレーを食べる</span></div>
+            <p class="panel-foot">♡ やることルーレット ♡</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="site-share-area">
+        <p>☆ このホームページはリンクフリーだヨ！ ☆</p>
+        <button id="siteShareButton" type="button">🐬 このサイトを友達におしえる♪</button>
+        <p id="siteShareStatus" class="share-status" role="status" aria-live="polite"></p>
+      </div>
+
+      <div class="control">
+        <p class="blink" aria-hidden="true">▼ CLICK HERE !! ▼</p>
+        <button id="spinButton" type="button">READY GO(^.^)/~~~</button>
+        <p class="hint">※ ボタンを押すと運命が決まるよ ※</p>
+      </div>
+
+      <section id="result" class="result" hidden aria-live="polite" aria-atomic="true">
+        <div class="result-bar">★☆ TODAY'S MISSION ☆★</div>
+        <p class="result-body"><strong id="resultPlace"></strong> で<br><strong id="resultAction"></strong></p>
+        <p>☆ やったネ！いってらっしゃ〜い ☆</p>
+        <div class="share-controls">
+          <button type="button" id="shareButton">✉ 結果をシェア</button>
+          <button type="button" id="copyButton">✂ 結果をコピー</button>
+        </div>
+        <p id="shareStatus" class="share-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <div class="under-construction" aria-label="工事中の飾り">🚧 <span>UNDER CONSTRUCTION</span> 🚧</div>
+      <section class="guestbook">
+        <p>♪ 管理人からひとこと ♪</p>
+        <div>おでかけに迷ったら何度でも回してネ☆<br>気に入った結果が出たらお出かけしよう！</div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-dolphins" aria-hidden="true">🐬　⭐　🐠　⭐　🐬</div>
+      <p>★ THANK YOU FOR VISITING ★</p>
+      <p class="tiny">リンクフリーです♪　｜　Best viewed with a sense of adventure</p>
+      <a href="#top" id="topLink">▲ PAGE TOP ▲</a>
+    </footer>
+  </div>
+</body>
+</html>
